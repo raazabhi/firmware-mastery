@@ -44,6 +44,12 @@ The repository is structured logically to build knowledge incrementally:
 - **SWO/ITM Tracing:** Real-time variable tracing and ultra-low overhead `printf` over SWO.
 - **Hardware Tools:** Using Logic Analyzers to catch SPI phase errors or I2C clock stretching anomalies.
 
+### [07_Advanced_Hardware](./07_Advanced_Hardware)
+- **Interrupts & NVIC:** Preemption priorities and volatile shared variables.
+- **Hardware Timers:** Prescalers, ARR frequency generation, and PWM duty cycles.
+- **DMA (Direct Memory Access):** CPU offloading and cache coherency.
+- **Analog & Power:** ADC DSP filtering, WFI deep sleep instructions, and profiling hardware power drain.
+
 ---
 
 > *"The difference between a junior and a senior embedded engineer isn't just knowing how to make it work, but knowing exactly how it will fail, and designing it not to."*
