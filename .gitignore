@@ -1,0 +1,17 @@
+# Build directories
+build/
+bin/
+obj/
+out/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+
+# Compiler output
+*.o
+*.elf
+*.hex
+*.bin
+*.map
